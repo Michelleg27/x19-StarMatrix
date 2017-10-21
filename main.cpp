@@ -13,7 +13,7 @@ int rowSize;
 int colSize;
 char star='*';
 
-cout<<"Enter size of rows and columns"<<endl;
+cout<<"Enter rows and columns of stars:"<<endl;
 cin>>rowSize;
 cin>>colSize;
 starMatrix.resize(rowSize);
